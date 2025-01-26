@@ -10,7 +10,12 @@ export default {
         './resources/**/*.vue',
     ],
     theme: {
-        extend: {
+        extend: {colors: {
+            red: '#ff0000',
+            blue: '#0000ff',
+            green: '#00ff00',
+            // Add more colors based on your database
+          },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
